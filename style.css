@@ -27,7 +27,7 @@ body {
 
 .tag {
   display: inline-block;
-  background: rgba(255,255,255,0.12);
+  background: rgba(255, 255, 255, 0.12);
   padding: 6px 12px;
   border-radius: 999px;
   font-size: 14px;
@@ -58,7 +58,7 @@ body {
   display: inline-block;
   text-decoration: none;
   color: white;
-  border: 1px solid rgba(255,255,255,0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   padding: 12px 18px;
   border-radius: 10px;
   transition: 0.2s ease;
@@ -66,7 +66,7 @@ body {
 
 .btn:hover {
   transform: translateY(-1px);
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .btn.primary {
@@ -156,7 +156,8 @@ thead {
   background: #dbeafe;
 }
 
-th, td {
+th,
+td {
   padding: 14px 16px;
   text-align: left;
   border-bottom: 1px solid #e5e7eb;
@@ -164,6 +165,22 @@ th, td {
 
 th {
   color: #0f172a;
+}
+
+.video-wrapper {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.video-wrapper video {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
 }
 
 .citation-box {
