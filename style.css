@@ -168,18 +168,21 @@ th {
 }
 
 .video-wrapper {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
   background: white;
   border: 1px solid #e5e7eb;
   border-radius: 16px;
-  padding: 16px;
+  padding: 12px;
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
 }
 
 .video-wrapper video {
   display: block;
   width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
   border-radius: 12px;
 }
 
@@ -217,5 +220,14 @@ th {
 
   .section h2 {
     font-size: 26px;
+  }
+
+  .video-wrapper {
+    padding: 8px;
+    border-radius: 12px;
+  }
+
+  .video-wrapper video {
+    border-radius: 8px;
   }
 }
